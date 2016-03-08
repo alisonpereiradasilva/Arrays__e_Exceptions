@@ -1,40 +1,37 @@
-Arrays e tratativa de Exceptions
--------------------------------------------------------------------------------------------------------------------
-
 package Arrays;
 
-public class Array {
+public class ExemploArray {
 
 	public static void main(String[] args) {
 		
-		int [] arraydados;
+		int [] meuArray;
 		
-		arraydados = new int [10];
+		meuArray = new int[10];
 		
-		arraydados [0] = 10;
-		arraydados [1] = 20;
-		arraydados [2] = 30;
-		arraydados [3] = 40;
-		arraydados [4] = 50;
-		arraydados [5] = 60;
-		arraydados [6] = 70;
-		arraydados [7] = 80;
-		arraydados [9] = 100;
+		meuArray [1] = 100;
+		meuArray [2] = 500;
+		meuArray [3] = 600;
+		meuArray [4] = 200;
+		meuArray [5] = 700;
+		meuArray [6] = 800;
+		meuArray [7] = 300;
+		meuArray [8] = 900;
+		meuArray [9] = 1000;
 		
 		
+		System.out.println("\n \n \t O Array cadastrado tem: " + meuArray.length + " Objetos na memória volátil RAM.");
 		
-		System.out.println("\n \n \t Trabalhando com Arrays");
+		System.out.println("\n \n \t Os dados do Array selecionados por você foram: ");
 		
-		System.out.println("\n Arraydados cadastrado tem: " + arraydados.length + " Objetos cadastrador");
+		System.out.println(meuArray[2]);
+		System.out.println(meuArray[3]);
+		System.out.println(meuArray[5]);
+		System.out.println(meuArray[9]);
+		System.out.println(meuArray[6]);
+		System.out.println(meuArray[1]);
 		
-		System.out.println("\n \n \t Os Arrays em Arraydados selecionados foram: \n" );
-		
-		System.out.println(arraydados[1]);
-		System.out.println(arraydados[3]);
-		System.out.println(arraydados[5]);
-		System.out.println(arraydados[7]);
-		System.out.println(arraydados[9]);
-		
+		// Erro de sintaxe: significada que a digitação está errada em algum termo.
+		// Exception não seignifica diretamente um erro, mas, fazer a alocação corrteta do dato pelo tipo solicitado.
 
 	}
 

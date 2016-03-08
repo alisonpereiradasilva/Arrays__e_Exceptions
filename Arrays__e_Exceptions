@@ -1,0 +1,41 @@
+Arrays e tratativa de Exceptions
+-------------------------------------------------------------------------------------------------------------------
+
+package Arrays;
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		int [] arraydados;
+		
+		arraydados = new int [10];
+		
+		arraydados [0] = 10;
+		arraydados [1] = 20;
+		arraydados [2] = 30;
+		arraydados [3] = 40;
+		arraydados [4] = 50;
+		arraydados [5] = 60;
+		arraydados [6] = 70;
+		arraydados [7] = 80;
+		arraydados [9] = 100;
+		
+		
+		
+		System.out.println("\n \n \t Trabalhando com Arrays");
+		
+		System.out.println("\n Arraydados cadastrado tem: " + arraydados.length + " Objetos cadastrador");
+		
+		System.out.println("\n \n \t Os Arrays em Arraydados selecionados foram: \n" );
+		
+		System.out.println(arraydados[1]);
+		System.out.println(arraydados[3]);
+		System.out.println(arraydados[5]);
+		System.out.println(arraydados[7]);
+		System.out.println(arraydados[9]);
+		
+
+	}
+
+}

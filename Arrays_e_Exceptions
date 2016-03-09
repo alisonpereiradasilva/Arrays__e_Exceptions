@@ -4,36 +4,33 @@ public class ExemploArray {
 
 	public static void main(String[] args) {
 		
-		int [] meuArray;
+		int [] meuArray; // Inicialização do Array de inteiros
 		
-		meuArray = new int [10];
+		meuArray = new int [5];
 		
-		meuArray [0] = 100;
-		meuArray [1] = 200;
-		meuArray [2] = 300;
-		meuArray [3] = 400;
-		meuArray [4] = 500;
-		meuArray [5] = 600;
-		meuArray [6] = 700;
-		meuArray [7] = 800;
-		meuArray [8] = 900;
-		meuArray [9] = 1000;
+		meuArray [0] = 10;
+		meuArray [1] = 20;
+		meuArray [2] = 30;
+		meuArray [3] = 40;
+		meuArray [4] = 50;
+		// meuArray [4] = 50. Este elemento ultrapassou o tamanho do Array gerado.
+		
+		System.out.println("\n \n \t Trabalhando com Arrays e Exceptios");
+		
+		System.out.println("O Array cadastrado poossui: " + meuArray.length + " Objetos encontrados");
+		
+		System.out.println("\n Os dados escolhidos foram: \n");
 		
 		
-		System.out.println("\n \n \t O Array cadastrado tem: " + meuArray.length + " Objetos na memória.");
-		
-		System.out.println(" \n \tOs elementos selecionado do Array foram: \n");
-		
-		System.out.println(meuArray[8]);
-		System.out.println(meuArray[2]);
-		System.out.println(meuArray[6]);
+		System.out.println(meuArray[4]);
 		System.out.println(meuArray[3]);
-		System.out.println(meuArray[7]);
+		System.out.println(meuArray[2]);
 		System.out.println(meuArray[1]);
-		System.out.println(meuArray[9]);
-
-		// Exception nem sempre é um erro, e sim o tipo de dado a ser tratado!
+		System.out.println(meuArray[0]);
+		
+		// Exception nem sempre é um erro de processo, e sim de alocação de dados para formatação do mesmos.  
 
 	}
 
 }
+

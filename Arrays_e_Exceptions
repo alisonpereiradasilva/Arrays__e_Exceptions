@@ -6,32 +6,33 @@ public class ExemploArray {
 		
 		int [] meuArray;
 		
-		meuArray = new int[10];
+		meuArray = new int [10];
 		
-		meuArray [1] = 100;
-		meuArray [2] = 500;
-		meuArray [3] = 600;
-		meuArray [4] = 200;
-		meuArray [5] = 700;
-		meuArray [6] = 800;
-		meuArray [7] = 300;
+		meuArray [0] = 100;
+		meuArray [1] = 200;
+		meuArray [2] = 300;
+		meuArray [3] = 400;
+		meuArray [4] = 500;
+		meuArray [5] = 600;
+		meuArray [6] = 700;
+		meuArray [7] = 800;
 		meuArray [8] = 900;
 		meuArray [9] = 1000;
 		
 		
-		System.out.println("\n \n \t O Array cadastrado tem: " + meuArray.length + " Objetos na memória volátil RAM.");
+		System.out.println("\n \n \t O Array cadastrado tem: " + meuArray.length + " Objetos na memória.");
 		
-		System.out.println("\n \n \t Os dados do Array selecionados por você foram: ");
+		System.out.println(" \n \tOs elementos selecionado do Array foram: \n");
 		
+		System.out.println(meuArray[8]);
 		System.out.println(meuArray[2]);
-		System.out.println(meuArray[3]);
-		System.out.println(meuArray[5]);
-		System.out.println(meuArray[9]);
 		System.out.println(meuArray[6]);
+		System.out.println(meuArray[3]);
+		System.out.println(meuArray[7]);
 		System.out.println(meuArray[1]);
-		
-		// Erro de sintaxe: significada que a digitação está errada em algum termo.
-		// Exception não seignifica diretamente um erro, mas, fazer a alocação corrteta do dato pelo tipo solicitado.
+		System.out.println(meuArray[9]);
+
+		// Exception nem sempre é um erro, e sim o tipo de dado a ser tratado!
 
 	}
 
